@@ -169,16 +169,16 @@ ENV FFMPEG_LIBS \
       -lmp3lame \
       -logg \
       -ltheora \
-      -lvorbis \
-      -lvorbisenc \
-      -lvorbisfile \
-      -lopus \
-      -lz \
-      -lwebp \
-      -lfreetype \
-      -lfribidi \
-      -lharfbuzz \
-      -lass
+      # -lvorbis \
+      # -lvorbisenc \
+      # -lvorbisfile \
+      # -lopus \
+      # -lz \
+      # -lwebp \
+      # -lfreetype \
+      # -lfribidi \
+      # -lharfbuzz \
+      # -lass
 RUN mkdir -p /src/dist/umd && bash -x /src/build.sh \
       ${FFMPEG_LIBS} \
       -o dist/umd/ffmpeg-core.js
