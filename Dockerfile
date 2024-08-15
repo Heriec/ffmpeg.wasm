@@ -148,13 +148,13 @@ RUN bash -x /src/build.sh \
       --enable-libvpx \
       --enable-libmp3lame \
       --enable-libtheora \
-      # --enable-libvorbis \
-      # --enable-libopus \
-      # --enable-zlib \
-      # --enable-libwebp \
-      # --enable-libfreetype \
-      # --enable-libfribidi \
-      # --enable-libass
+      --disable-libvorbis \
+      --disable-libopus \
+      --disable-zlib \
+      --disable-libwebp \
+      --disable-libfreetype \
+      --disable-libfribidi \
+      --disable-libass
 
 # Build ffmpeg.wasm
 FROM ffmpeg-builder AS ffmpeg-wasm-builder
