@@ -168,7 +168,7 @@ ENV FFMPEG_LIBS \
       -lvpx \
       -lmp3lame \
       -logg \
-      -ltheora \
+      -ltheora
       # -lvorbis \
       # -lvorbisenc \
       # -lvorbisfile \
